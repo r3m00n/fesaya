@@ -123,6 +123,8 @@ main {
     align-items: center;
     width: 250px;
     border-radius: 100px;
+    transition: all 0.3s;
+
     p {
       color: #f3f3f3;
       transition: all 0.3s;
