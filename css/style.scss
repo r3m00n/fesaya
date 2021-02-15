@@ -24,6 +24,7 @@ body {
   width: 100vw;
   // overflow: hidden;
   background: url(../img/BG.png) no-repeat center center fixed;
+  background-size: cover;
   display: grid;
   place-items: center;
 }
@@ -41,6 +42,7 @@ body {
   //   border: 3px solid rgba(255, 255, 255, 0.12);
   display: flex;
   color: $text;
+  overflow-y: auto;
 }
 
 aside {

@@ -21,6 +21,7 @@ body {
   height: 100vh;
   width: 100vw;
   background: url(../img/BG.png) no-repeat center center fixed;
+  background-size: cover;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -37,6 +38,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: #a30e0e;
+  overflow-y: auto;
 }
 
 aside {
